@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &667653488690259419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 667653488690259421}
+  - component: {fileID: 667653488690259418}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &667653488690259421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667653488690259419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &667653488690259418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667653488690259419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e680f3f22a18fa47b1a1d831fa08bc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - source: {fileID: 0}
+    name: deepspace_noise
+    clip: {fileID: 8300000, guid: ab119f83373a6134ca708b0a3e04995f, type: 3}
+    volume: 0.02
+    pitch: 1
+    loop: 1
+    spatialBlend: 0
+  - source: {fileID: 0}
+    name: boost
+    clip: {fileID: 8300000, guid: 68a8f6364e55b484db1fb26cd1b058b4, type: 3}
+    volume: 0.05
+    pitch: 1
+    loop: 1
+    spatialBlend: 0
+  - source: {fileID: 0}
+    name: shoot
+    clip: {fileID: 8300000, guid: 0404e13466e904d44a334184a90ebfa3, type: 3}
+    volume: 0.05
+    pitch: 1
+    loop: 0
+    spatialBlend: 0
+  - source: {fileID: 0}
+    name: explosion
+    clip: {fileID: 8300000, guid: aa276ed8fc9ddee46bbca39eaacc3205, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    spatialBlend: 0.8
